@@ -1,0 +1,47 @@
+body {
+    background-color:black; 
+}
+
+
+.main {
+    margin:auto;
+    height:330px;
+    width:450px;
+    background-color:white;
+    font-family: 'Handlee', cursive;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+.main img {
+    position: absolute; bottom: 250px; left: 340px; width: 20%; height: 20%; 
+}
+.main h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.body {
+    display: flex;
+}
+
+.right {
+    margin-left:20px;
+    font-size: 18px;  
+    margin-bottom: -20px;
+}
+
+.left {
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    text-align: justify;
+}
+
+.button {
+    position: absolute;
+    right: 30%; 
+    background-color: gray;
+    height: 40px;
+    font-size: 15px;
+}
